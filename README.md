@@ -1,4 +1,4 @@
-nametime
+Nametime
 ========
 
 Measure performance of authoritative name servers
