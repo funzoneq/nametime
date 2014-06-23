@@ -11,7 +11,7 @@ Measure performance of authoritative name servers
 
 # Run as command-line tool
 
-    ./nametime -server="ns1.p20.dynect.net:53" -domain="soundcloud.com"
+    ./nametime -server="ns1.p20.dynect.net:53" -domain="soundcloud.com" -timesToCheck=25
 
 # Export data as JSON
 
@@ -19,4 +19,4 @@ Measure performance of authoritative name servers
 
 # Export data to a OpenTSDB endpoint
 
-    ./nametime -timesToCheck=25 -server="pdns1.ultradns.net:53" -domain="tumblr.com" -tsdbServer="opentsdb.example.com:4242" -tsdput
+    ./nametime -server="pdns1.ultradns.net:53" -domain="tumblr.com" -tsdbServer="opentsdb.example.com:4242" -tsdput
