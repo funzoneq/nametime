@@ -11,7 +11,7 @@ Measure performance of authoritative name servers
     
 # Options
 
-    Usage: resolve [option ...]
+    Usage: nametime [option ...]
       -domain="tumblr.com": The domain to resolv
       -jsonout=false: Output json
       -server="8.8.8.8:53": DNS server address (ip:port)
