@@ -27,4 +27,4 @@ Output:
 
 # Export data to a OpenTSDB endpoint
 
-    ./nametime -server="pdns1.ultradns.net:53" -domain="tumblr.com" -tsdbServer="opentsdb.example.com:4242" -tsdput
+    ./nametime -server="pdns1.ultradns.net:53" -domain="tumblr.com" -tsdserver="opentsdb.example.com:4242" -tsdput
