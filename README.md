@@ -8,6 +8,17 @@ Measure performance of authoritative name servers
     Install go: http://golang.org/doc/install
     chmod +x build
     ./build
+    
+# Options
+
+    Usage: resolve [option ...]
+      -domain="tumblr.com": The domain to resolv
+      -jsonout=false: Output json
+      -server="8.8.8.8:53": DNS server address (ip:port)
+      -timesToCheck=25: How many lookups do you want to base the avg on
+      -tsdput=false: Export metrics to OpenTSDB
+      -tsdserver="opentsdb.example.com:4243": Endpoint of OpenTSDB to report metrics
+      -v=false: Verbose logging
 
 # Run as command-line tool
 
