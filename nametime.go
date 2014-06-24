@@ -133,9 +133,9 @@ func lookshitup (dnsServer string, domain string, id uint16, dnsType uint16) (co
 func main() {
 	flag.Usage = func() {
 		fmt.Fprintf(os.Stderr, strings.Join([]string{
-			"\"resolve\" measures the performance of a DNS service provider.",
+			"\"nametime\" measures the performance of a DNS service provider.",
 			"",
-			"Usage: resolve [option ...]",
+			"Usage: nametime [option ...]",
 			"",
 		}, "\n"))
 		flag.PrintDefaults()
